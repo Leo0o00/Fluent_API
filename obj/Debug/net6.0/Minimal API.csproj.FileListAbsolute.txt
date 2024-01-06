@@ -1,0 +1,70 @@
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\appsettings.Development.json
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\appsettings.json
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Minimal API.exe
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Minimal API.deps.json
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Minimal API.runtimeconfig.json
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Minimal API.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Minimal API.pdb
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Azure.Core.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Azure.Identity.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.csproj.AssemblyReference.cache
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.AssemblyInfoInputs.cache
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.AssemblyInfo.cs
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.csproj.CoreCompileInputs.cache
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.MvcApplicationPartsAssemblyInfo.cache
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\scopedcss\bundle\Minimal API.styles.css
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.csproj.CopyComplete
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\refint\Minimal API.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.pdb
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\Minimal API.genruntimeconfig.cache
+D:\Programacion\Curso de Platzi\Entity Framework\Minimal API\obj\Debug\net6.0\ref\Minimal API.dll
