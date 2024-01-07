@@ -5,18 +5,19 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Minimal_API.Models
+
+namespace Fluent_API.Models
 {
     public class Tarea
     {
-        [Key]
+        /*[Key]*/ //Estos atributos son reemplazados por las funciones de la clase OnModelCreating
         public Guid TareaId { get; set; }
         
-        [ForeignKey("CategoriaId")] //Esta es una llave foranea ya que pertenece a otra clase
+        /*[ForeignKey("CategoriaId")]*/ //Esta es una llave foranea ya que pertenece a otra clase
         public Guid CategoriaId { get; set; }
         
-        [Required]  //Hace que este campo sea requerido obligatoriamente
-        [MaxLength(200)]  //Establece un maximo de caracteres para este campo
+        /*[Required]*/  //Hace que este campo sea requerido obligatoriamente
+        /*[MaxLength(200)]*/  //Establece un maximo de caracteres para este campo
         public String Titulo { get; set; }
 
         public Prioridad PrioridadTarea { get; set; }
@@ -24,10 +25,11 @@ namespace Minimal_API.Models
         public DateTime FechaCreacion { get; set; }
 
         //Con esta linea le asigno a cada tarea una categoria y a su vez puedo solicitar una tarea por su categoria asignada 
-        public virtual Categoria Categoria { get; set; }  
+        public virtual Categoria  Categoria { get; set; }  
 
 
-        [NotMapped]   //Anotacion para evitar que este campo sea almacenado en la base de datos
+        //Utilizando Fluent API se puede eliminar este atributo ya que bastaria con no agregarlo al objeto TareasContext.OnModelCreating() para que esta propiedad no sea agregada a la base de datos
+        /*[NotMapped]*/   //Anotacion para evitar que este campo sea almacenado en la base de datos
         public string Resumen {get; set;}
     }
 
