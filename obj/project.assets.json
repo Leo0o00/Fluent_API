@@ -3009,11 +3009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj",
+      "projectUniqueName": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj",
       "projectName": "Minimal API",
-      "projectPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj",
+      "projectPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj",
       "packagesPath": "C:\\Users\\Canaima\\.nuget\\packages\\",
-      "outputPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\obj\\",
+      "outputPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Canaima\\AppData\\Roaming\\NuGet\\NuGet.Config",

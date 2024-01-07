@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLp/uNu6nJPNXEKAsacTjfQB6sV6ZZ8P1zb5wCvm2XVaviGrt227KJ4kGw7J1ag9DicnHjaKuHQkCCqme5Jm+g==",
+  "dgSpecHash": "oPUxydrqrUrg8Iisag7jiHkXnXFsHwV6jOSUrVi1Bvcsews/vXbD/3U1xZi/LHkOGTijmpUYi34LIw2QAeJV+A==",
   "success": true,
-  "projectFilePath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj",
+  "projectFilePath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Canaima\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Canaima\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
