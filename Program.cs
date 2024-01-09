@@ -16,7 +16,7 @@ var app = builder.Build();
 app.MapGet("/", () => "Hello World!");
 
 /*EndPoint para mostrar un mensaje si la base de datos es creada con exito*/
-app.MapGet("/dbconexion", async ([FromServices] TareasContext dbContext) =>
+app.MapGet("/dbconexion", ([FromServices] TareasContext dbContext) =>
 {
     dbContext.Database.EnsureCreated();
 

@@ -138,3 +138,17 @@ D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\ref
 D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\Minimal API.pdb
 D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\Minimal API.genruntimeconfig.cache
 D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\ref\Minimal API.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\Minimal API.sourcelink.json
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\staticwebassets\msbuild.Minimal API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\staticwebassets\msbuild.build.Minimal API.props
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Minimal API.props
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Minimal API.props
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\Humanizer.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\System.CodeDom.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\System.Text.Json.dll
+D:\Programacion\Curso de Platzi\Entity Framework\Fluent API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
