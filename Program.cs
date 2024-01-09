@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Minimal_API;
+using Fluent_API;
 
 var builder = WebApplication.CreateBuilder(args);
 /*Con este metodo creo la base de datos en memoria*/
@@ -20,9 +20,9 @@ app.MapGet("/dbconexion", ([FromServices] TareasContext dbContext) =>
 {
     dbContext.Database.EnsureCreated();
 
-    return Results.Ok("Base de datos en memoria: " + dbContext.Database.IsInMemory());
-
+    return Results.Ok("Base de datos montada en el server: " + dbContext.Database.IsInMemory());
 
 });
 
 app.Run();
+

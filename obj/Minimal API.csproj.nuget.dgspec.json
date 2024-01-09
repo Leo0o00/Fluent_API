@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj": {}
+    "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj": {}
   },
   "projects": {
-    "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj": {
+    "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj",
+        "projectUniqueName": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj",
         "projectName": "Minimal API",
-        "projectPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\Minimal API.csproj",
+        "projectPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\Minimal API.csproj",
         "packagesPath": "C:\\Users\\Canaima\\.nuget\\packages\\",
-        "outputPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Minimal API\\obj\\",
+        "outputPath": "D:\\Programacion\\Curso de Platzi\\Entity Framework\\Fluent API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Canaima\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
               "target": "Package",
               "version": "[7.0.14, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -71,6 +77,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -79,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
