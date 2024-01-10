@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Fluent_API.Models
@@ -19,6 +20,7 @@ namespace Fluent_API.Models
         public int Peso {get; set; }
         
         //Aqui puedo ver que tareas tiene asignada cada categoria
+        [JsonIgnore]
         public virtual ICollection<Tarea> Tareas { get; set; }
     }
 }
