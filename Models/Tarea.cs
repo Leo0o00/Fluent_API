@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 
@@ -30,6 +31,7 @@ namespace Fluent_API.Models
 
         //Utilizando Fluent API se puede eliminar este atributo ya que bastaria con no agregarlo al objeto TareasContext.OnModelCreating() para que esta propiedad no sea agregada a la base de datos
         /*[NotMapped]*/   //Anotacion para evitar que este campo sea almacenado en la base de datos
+        [JsonIgnore]
         public string Resumen {get; set;}
     }
 

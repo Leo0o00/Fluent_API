@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Fluent_API;
+using Fluent_API.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 /*Con este metodo creo la base de datos en memoria*/
@@ -24,13 +25,25 @@ app.MapGet("/dbconexion", ([FromServices] TareasContext dbContext) =>
 
 });
 
-/*EndPoint utilizado para el consumo de datos*/
-app.MapGet("/api/tareas", ([FromServices] TareasContext dbContext) => {
+/*EndPoint utilizado para el consumo de datos (Obtener datos de la base de datos)*/
+app.MapGet("/api/tareas_obtener", ([FromServices] TareasContext dbContext) => {
   /*Con la funcion "Where" puedo establecer un filtro de resultados para cuando se le realice la peticion a la base de datos, en este caso se pretende mostrar solo las tareas que tengan prioridad baja*/
   //return Results.Ok(dbContext.Tareas.Where(p=> p.PrioridadTarea == Fluent_API.Models.Prioridad.Baja));
   
   /*Aqui se añade la funcion "Include" para que ademas se muestre los campos pertenecientes a la tarea contenidos en el modelo Categorias*/
   return Results.Ok(dbContext.Tareas.Include(p=> p.Categoria).Where(p=> p.PrioridadTarea == Fluent_API.Models.Prioridad.Baja));
+
+});
+/*EndPoint utilizado para el consumo de datos (Guardar nuevos datos de la base de datos)*/
+app.MapPost("/api/tareas_guardar", async ([FromServices] TareasContext dbContext, [FromBody] Tarea tarea) => {
+  
+  tarea.TareaId = Guid.NewGuid();
+  tarea.FechaCreacion = DateTime.Now;
+  await dbContext.AddAsync(tarea);
+  //await dbContext.Tareas.AddAsync(tarea);  //Otra via
+  await dbContext.SaveChangesAsync();
+  
+  return Results.Ok();
 
 });
 app.Run();
