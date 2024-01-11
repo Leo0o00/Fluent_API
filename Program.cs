@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Fluent_API;
 using Fluent_API.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 
 var builder = WebApplication.CreateBuilder(args);
 /*Con este metodo creo la base de datos en memoria*/
@@ -31,7 +32,10 @@ app.MapGet("/api/tareas_obtener", ([FromServices] TareasContext dbContext) => {
   //return Results.Ok(dbContext.Tareas.Where(p=> p.PrioridadTarea == Fluent_API.Models.Prioridad.Baja));
   
   /*Aqui se añade la funcion "Include" para que ademas se muestre los campos pertenecientes a la tarea contenidos en el modelo Categorias*/
-  return Results.Ok(dbContext.Tareas.Include(p=> p.Categoria).Where(p=> p.PrioridadTarea == Fluent_API.Models.Prioridad.Baja));
+  //return Results.Ok(dbContext.Tareas.Include(p=> p.Categoria).Where(p=> p.PrioridadTarea == Fluent_API.Models.Prioridad.Baja));
+  
+  return Results.Ok(dbContext.Tareas.Include(p=> p.Categoria));
+  //return Results.Ok(dbContext.Tareas);
 
 });
 /*EndPoint utilizado para el consumo de datos (Guardar nuevos datos de la base de datos)*/
@@ -46,5 +50,42 @@ app.MapPost("/api/tareas_guardar", async ([FromServices] TareasContext dbContext
   return Results.Ok();
 
 });
-app.Run();
 
+/*EndPoint utilizado para el consumo de datos (Actualizar los datos de la base de datos)
+  Recibira el ID desde la ruta de acceso(enlace) y los datos a actualizar se recibiran desde el body*/
+app.MapPut("/api/tareas_actualizar/{id}", async ([FromServices] TareasContext dbContext, [FromBody] Tarea tarea, [FromRoute] Guid id) => {
+  
+  var tareaActual = dbContext.Tareas.Find(id); //Para hacer la busqueda de los elementos basandose en los campos marcados por el atributo [Key]
+  
+  /*En caso de que el ID exista se ejecutaran los metodos contenidos dentro deL IF
+    en caso contrario se mostrara un mensaje de Error HTTP 404*/
+  if(tareaActual!=null){
+    tareaActual.CategoriaId = tarea.CategoriaId;
+    tareaActual.Titulo = tarea.Titulo;
+    tareaActual.PrioridadTarea = tarea.PrioridadTarea;
+    tareaActual.Descripcion = tarea.Descripcion;
+  
+    await dbContext.SaveChangesAsync();
+    return Results.Ok();
+  }
+  return Results.NotFound();
+
+});
+/*
+app.MapPut("/api/tareas_actualizar/{id}", async ([FromServices] TareasContext dbContext, [FromBody] Tarea tarea, [FromRoute] Guid id) => {
+  
+  var tareaActual = dbContext.Tareas.Find(id); //Para hacer la busqueda de los elementos basandose en los campos marcados por el atributo [Key]
+  if(tareaActual!=null){
+    tareaActual.CategoriaId = tarea.CategoriaId;
+    tareaActual.Titulo = tarea.Titulo;
+    tareaActual.PrioridadTarea = tarea.PrioridadTarea;
+    tareaActual.Categoria.Descripcion = tarea.Categoria.Descripcion;
+  
+    await dbContext.SaveChangesAsync();
+    return Results.Ok();
+  }
+  return Results.NotFound();
+
+});
+*/
+app.Run();

@@ -15,7 +15,7 @@ namespace Fluent_API.Models
         /*[Required]*/  //Hace que este campo sea requerido obligatoriamente
         /*[MaxLength(150)]*/  //Establece un maximo de caracteres para este campo
         public String Nombre { get; set; }
-        public String Descripcion { get; set; }
+        //public String Descripcion { get; set; }
 
         public int Peso {get; set; }
         
