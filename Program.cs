@@ -71,21 +71,19 @@ app.MapPut("/api/tareas_actualizar/{id}", async ([FromServices] TareasContext db
   return Results.NotFound();
 
 });
-/*
-app.MapPut("/api/tareas_actualizar/{id}", async ([FromServices] TareasContext dbContext, [FromBody] Tarea tarea, [FromRoute] Guid id) => {
+
+app.MapDelete("/api/tareas_eliminar/{id}", async ([FromServices] TareasContext dbContext, [FromRoute] Guid id) => {
   
   var tareaActual = dbContext.Tareas.Find(id); //Para hacer la busqueda de los elementos basandose en los campos marcados por el atributo [Key]
-  if(tareaActual!=null){
-    tareaActual.CategoriaId = tarea.CategoriaId;
-    tareaActual.Titulo = tarea.Titulo;
-    tareaActual.PrioridadTarea = tarea.PrioridadTarea;
-    tareaActual.Categoria.Descripcion = tarea.Categoria.Descripcion;
   
+  if(tareaActual!=null){
+  
+    dbContext.Remove(tareaActual);
     await dbContext.SaveChangesAsync();
     return Results.Ok();
   }
   return Results.NotFound();
 
 });
-*/
+
 app.Run();
